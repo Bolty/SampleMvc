@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvc.Tests", "SampleMv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9425B8F5-8744-4250-8330-9864EE25B25A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildAndDeployment", "BuildAndDeployment", "{94233844-EC69-484E-93A4-CD7F9892324C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{E14D0BBF-7CB0-4B3B-AF62-0B80218C5BAD}"
+	ProjectSection(SolutionItems) = preProject
+		SampleMvc01.sql = SampleMvc01.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
