@@ -55,6 +55,7 @@
       <DependentUpon>SampleContext.tt</DependentUpon>
     </Compile>
     <Compile Include="IRepository.cs" />
+    <Compile Include="ModelExtensions\Product.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>SampleContext.tt</DependentUpon>
     </Compile>
